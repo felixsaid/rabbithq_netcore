@@ -44,3 +44,17 @@ C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\obj\Debug\netco
 C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\obj\Debug\netcoreapp3.1\Ticketing.Microservice.dll
 C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\obj\Debug\netcoreapp3.1\Ticketing.Microservice.pdb
 C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\obj\Debug\netcoreapp3.1\Ticketing.Microservice.genruntimeconfig.cache
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\kiamb\source\repos\TicketBooking\Ticketing.Microservice\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll

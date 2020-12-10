@@ -1,11 +1,8 @@
-﻿using MassTransit;
-using Microsoft.AspNetCore.Http;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Shared.Models.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using Ticketing.Microservice.Tickets;
 
 namespace Ticketing.Microservice.Controllers
 {
@@ -13,26 +10,41 @@ namespace Ticketing.Microservice.Controllers
     [ApiController]
     public class TicketController : ControllerBase
     {
-        private readonly IBus bus;
+       
+        private readonly IMediator mediator;
 
-        public TicketController(IBus bus)
+        public TicketController(IMediator mediator)
         {
-            this.bus = bus;
+            this.mediator = mediator;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateTicket(Ticket ticket)
         {
-            if(ticket != null)
+            if (ticket != null)
             {
-                ticket.BookedOn = DateTime.Now;
-                Uri uri = new Uri("rabbitmq://localhost/ticketQueue");
-                var endPoint = await bus.GetSendEndpoint(uri);
-                await endPoint.Send(ticket);
-                return Ok();
+                var result = await mediator.Send(new CreateTicketCommand(ticket));
+
+                return Ok(result);
             }
 
             return BadRequest();
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllTickets()
+        {
+            var result = await mediator.Send(new ListTicket.GetTicketsQuery());
+
+            return Ok(result);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTicketById(int id)
+        {
+            var result = await mediator.Send(new ListTicketById.GetTicketByIdCommand(id));
+
+            return Ok(result);
         }
     }
 }
