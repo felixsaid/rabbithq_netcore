@@ -1,0 +1,9 @@
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\bin\Debug\netcoreapp3.1\Shared.Models.deps.json
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\bin\Debug\netcoreapp3.1\Shared.Models.dll
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\bin\Debug\netcoreapp3.1\Shared.Models.pdb
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.csprojAssemblyReference.cache
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.AssemblyInfoInputs.cache
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.AssemblyInfo.cs
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.csproj.CoreCompileInputs.cache
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.dll
+C:\Users\kiamb\source\repos\TicketBooking\Shared.Models\obj\Debug\netcoreapp3.1\Shared.Models.pdb
